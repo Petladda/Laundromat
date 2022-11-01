@@ -1,0 +1,28 @@
+
+
+.con{
+    border-bottom: 1.4px solid gainsboro ;
+    
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(87, 86, 86);
+    
+}
+
+.head h2::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: rgb(146, 146, 146);
+    margin: auto;
+    display: block;
+}
+
+.head h2:hover::after{
+    width: 100%;
+    transition:  0.6s linear;
+}

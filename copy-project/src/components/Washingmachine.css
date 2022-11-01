@@ -1,0 +1,36 @@
+.machine-grid{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    
+}
+
+.machine-item img{
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+   
+}
+
+.machine-item a{
+    text-decoration: none;
+    color: rgb(87, 86, 86);
+    
+}
+
+.machine-item a h3{
+    color: red;
+}
+
+@media screen and(max-width: 480px){
+    .machine-item a{
+        padding: 0 2rem;
+    }
+}
+
+
